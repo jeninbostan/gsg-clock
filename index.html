@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body onload="initClock()">
+    <header></header>
+    <main>
+      <div class="cont">
+        <div class="item">
+          <div class="box-shadow">
+            <div class="date">
+              <span id="dayname">Day</span>
+              <span id="month">Month</span>
+              <span id="daynum">00</span>
+              <span id="year">Year</span>
+            </div>
+            <h1 id="clock" class="clock"></h1>
+            <div class="form-alarm">
+              <select id="hours"></select>
+              <select id="minutes"></select>
+              <select id="seconds"></select>
+              <select id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+              </select>
+              <p>
+                <button id="snooze" class="hide">Snooze</button>
+                <button id="startstop">Set Alarm</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
