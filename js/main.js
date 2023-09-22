@@ -42,9 +42,6 @@ var time, alarm, currentH, currentM,
   activeAlarm = false,
   sound = new Audio("https://freesound.org/data/previews/316/316847_4939433-lq.mp3");
 
-/*
-  audio sound source: https://freesound.org/people/SieuAmThanh/sounds/397787/
-*/
 
 // loop alarm
 sound.loop = true;
