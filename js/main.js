@@ -63,13 +63,11 @@ function displayTime() {
 }
 displayTime();
 
-// add option values relative towards time
 function addMinSecVals(id) {
   var select = id;
   var min = 59;
 
   for (i = 0; i <= min; i++) {
-    // defined as new Option(text, value)
     select.options[select.options.length] = new Option(i < 10 ? "0" + i : i, i < 10 ? "0" + i : i);
   }
 }
@@ -78,7 +76,6 @@ function addHours(id) {
   var hour = 12;
 
   for (i = 1; i <= hour; i++) {
-    // defined as new Option(text, value)
     select.options[select.options.length] = new Option(i < 10 ? "0" + i : i, i);
   }
 }
